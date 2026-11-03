@@ -11,7 +11,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 @SpringBootTest
 @EnabledIfEnvironmentVariable(named = "OPENAI_API_KEY", matches = ".+")
-public class OpenAIChatClientIT {
+public class OpenAiChatClientIT {
     @Autowired
     OpenAiChatModel openAiChatModel;
 

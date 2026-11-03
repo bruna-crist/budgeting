@@ -13,7 +13,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 @SpringBootTest
 @EnabledIfEnvironmentVariable(named = "OPENAI_API_KEY", matches = ".+")
-public class OpenAIChatModelIT {
+public class OpenAiChatModelIT {
     @Autowired
     OpenAiApi openAiApi;
 
